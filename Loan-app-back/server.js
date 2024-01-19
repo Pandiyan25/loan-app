@@ -16,7 +16,7 @@ connectToDatabase();
 //Middleware
 app.use(
   cors({
-    origin: 'https://cybersapients.netlify.app/',
+    origin: 'https://cybersapients.netlify.app',
   })
 );
 //Routes
