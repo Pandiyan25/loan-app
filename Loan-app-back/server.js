@@ -16,7 +16,7 @@ connectToDatabase();
 //Middleware
 app.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin: 'http://localhost:30',
   })
 );
 //Routes
